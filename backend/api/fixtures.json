@@ -1,0 +1,134 @@
+[
+    {
+      "model": "articles.article",
+      "pk": 1,
+      "fields": {
+        "name": "Zizzle",
+        "description": "Fugiat proident aliquip aliqua nostrud adipisicing ea eu aliqua. Aute nisi ad culpa occaecat ea ad id quis incididunt enim. Et duis esse eiusmod nulla.",
+        "picture": "",
+        "price": 9,
+        "in_stock": false
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 2,
+      "fields": {
+        "name": "Reversus",
+        "description": "Tempor Lorem ex in est ea amet esse consectetur Lorem nulla. Ipsum qui aliquip tempor incididunt sit dolore magna cillum est. Cupidatat esse ea excepteur aliqua sint. Voluptate exercitation esse nulla excepteur velit sit aliquip cupidatat amet duis. Irure anim nisi elit duis labore magna anim sit tempor anim irure ut incididunt. Excepteur veniam nulla officia sit aliqua sint officia nostrud aliqua excepteur labore nulla ad ea.",
+        "picture": "",
+        "price": 8,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 3,
+      "fields": {
+        "name": "Envire",
+        "description": "Consequat excepteur sunt deserunt incididunt non et ad pariatur sunt mollit ad adipisicing aliquip veniam. Incididunt veniam nostrud irure est pariatur ut tempor. Et non sunt adipisicing consequat dolor ipsum amet exercitation. Eiusmod aliquip minim dolor exercitation nulla laboris excepteur dolor duis consectetur. Veniam voluptate laborum do eiusmod ex ullamco. Minim quis incididunt deserunt et dolore eiusmod elit.",
+        "picture": "",
+        "price": 14,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 4,
+      "fields": {
+        "name": "Pushcart",
+        "description": "Non dolor anim do deserunt dolore pariatur ipsum labore Lorem sunt adipisicing officia. Magna cupidatat dolor tempor anim cupidatat laboris ut in id consequat veniam sint. Et aliqua dolore consequat amet ullamco labore anim mollit elit irure aute laboris voluptate nulla. Esse enim ut ut ad sit quis consectetur minim ex minim nisi.",
+        "picture": "",
+        "price": 11,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 5,
+      "fields": {
+        "name": "Zenthall",
+        "description": "Eiusmod excepteur duis Lorem ea occaecat est. Veniam nulla ad qui do do non culpa. Exercitation officia labore aliquip est.",
+        "picture": "",
+        "price": 13,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 6,
+      "fields": {
+        "name": "Freakin",
+        "description": "Elit nulla nostrud dolore minim dolore sit amet quis duis dolor. Eu ad tempor labore adipisicing ullamco fugiat esse officia ex eu exercitation. Non ut dolor magna laborum pariatur cupidatat aliquip pariatur aliqua non et culpa. Anim consequat nulla dolor amet eiusmod enim. Sunt quis ad nostrud sit non consequat consequat non enim mollit proident voluptate culpa Lorem.",
+        "picture": "",
+        "price": 12,
+        "in_stock": false
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 7,
+      "fields": {
+        "name": "Caxt",
+        "description": "Culpa consequat consectetur eu pariatur culpa deserunt aute proident est occaecat. Voluptate nostrud deserunt sint officia sint duis eiusmod quis voluptate ullamco. Nostrud duis in ad dolore esse ut. Incididunt labore laboris sint id eu. Culpa cillum laborum Lorem elit adipisicing ullamco proident nulla reprehenderit ullamco velit. Adipisicing exercitation occaecat enim ad velit officia id veniam nisi eu fugiat velit pariatur labore. Ipsum adipisicing laboris ipsum ipsum excepteur tempor Lorem.",
+        "picture": "",
+        "price": 5,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 8,
+      "fields": {
+        "name": "Valreda",
+        "description": "Eu quis commodo consequat tempor ad consectetur occaecat. Consectetur veniam nostrud pariatur et elit occaecat mollit duis. Nisi voluptate dolor amet labore consequat reprehenderit minim dolor commodo elit. Velit consectetur incididunt incididunt nostrud mollit cillum non aliqua excepteur qui.",
+        "picture": "",
+        "price": 10,
+        "in_stock": false
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 9,
+      "fields": {
+        "name": "Grok",
+        "description": "Non pariatur amet consectetur culpa nisi esse nulla consequat. Culpa ipsum est cupidatat eu ullamco et enim velit cupidatat. Est reprehenderit laboris sit id laboris nulla anim ad elit laboris eiusmod tempor dolor qui. Incididunt anim quis id cupidatat occaecat cupidatat sunt est magna voluptate exercitation commodo. Do cillum sit aliquip exercitation qui dolor reprehenderit aliquip.",
+        "picture": "",
+        "price": 6,
+        "in_stock": false
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 10,
+      "fields": {
+        "name": "Zolarity",
+        "description": "Amet qui non occaecat irure mollit dolor labore. Qui eiusmod sit consequat id. Lorem sint occaecat dolore deserunt nostrud eiusmod. Lorem eu dolor ad dolor sint occaecat sit ut do. Cillum in eu dolore ad deserunt est ad esse velit anim. Aliqua quis commodo cillum velit nostrud nisi laborum labore adipisicing ad dolore in anim eiusmod. Incididunt esse adipisicing labore ad id amet nostrud officia aliqua adipisicing.",
+        "picture": "",
+        "price": 9,
+        "in_stock": false
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 11,
+      "fields": {
+        "name": "Tetak",
+        "description": "Minim magna deserunt occaecat est enim fugiat eu. Cillum ipsum cupidatat culpa enim irure fugiat labore voluptate ad enim. Sit ex ex ut sint consectetur elit Lorem et dolor excepteur nulla qui. Sunt elit velit qui consectetur enim Lorem non dolore veniam reprehenderit ea. Lorem cillum cillum incididunt enim anim incididunt velit sint ipsum eiusmod sunt nulla. Ullamco veniam exercitation nulla do.",
+        "picture": "",
+        "price": 9,
+        "in_stock": true
+      }
+    },
+    {
+      "model": "articles.article",
+      "pk": 12,
+      "fields": {
+        "name": "Cogentry",
+        "description": "Officia sit est consectetur labore eiusmod adipisicing culpa. Commodo commodo anim laborum enim duis ea culpa elit eu id deserunt elit sint. Aliqua id eiusmod consequat adipisicing eu esse sint consectetur quis commodo non aliqua adipisicing aliqua. Esse ea incididunt consectetur pariatur ullamco minim nulla dolore laborum esse.",
+        "picture": "",
+        "price": 5,
+        "in_stock": false
+      }
+    }
+  ]
