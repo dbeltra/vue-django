@@ -1,6 +1,6 @@
 [
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 1,
       "fields": {
         "name": "Zizzle",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 2,
       "fields": {
         "name": "Reversus",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 3,
       "fields": {
         "name": "Envire",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 4,
       "fields": {
         "name": "Pushcart",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 5,
       "fields": {
         "name": "Zenthall",
@@ -55,7 +55,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 6,
       "fields": {
         "name": "Freakin",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 7,
       "fields": {
         "name": "Caxt",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 8,
       "fields": {
         "name": "Valreda",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 9,
       "fields": {
         "name": "Grok",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 10,
       "fields": {
         "name": "Zolarity",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 11,
       "fields": {
         "name": "Tetak",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "model": "articles.article",
+      "model": "api.article",
       "pk": 12,
       "fields": {
         "name": "Cogentry",

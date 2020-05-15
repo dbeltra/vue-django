@@ -9,7 +9,8 @@
                 class="button"
                 v-on:click="switchDisplay()"
             >
-            Switch
+            <span v-if="isList">Grid</span>
+            <span v-else>List</span>
             </button>
 
             <div>
@@ -20,23 +21,18 @@
                 </span>
                 </p>
             </div>
-
-
-
             <div v-if="computedArticles.length">
                 <transition-group
-                    name="staggered-fade"
+                    name="articles-list"
                     tag="div"
-                    v-on:before-enter="beforeEnter"
-                    v-on:enter="enter"
-                    v-on:leave="leave"
-                    v-bind:css="false"
-                    class="columns is-multiline">
+                    class="columns is-multiline"
+                    @toggle-expand="handleEvent()">
                     <Article
                         v-for="article in computedArticles"
                         :key="article.id"
                         :article="article"
                         :isList="isList"
+                        v-on:toggle-info="toggleInfo(article)"
                     ></Article>
                 </transition-group>
             </div>
@@ -79,6 +75,7 @@ export default {
           },     
         })
         .then(res => {
+            res.data.forEach(article => { article['isInfoExpanded'] = false });
             this.allArticles = res.data;
         })
         .catch(() => {
@@ -87,12 +84,13 @@ export default {
         .finally(() => {
             this.loading = false
         })
+
     },
     computed: {
         computedArticles: function () {
-            var vm = this
+            var self = this
             return this.allArticles.filter(function (article) {
-                return article.name.toLowerCase().indexOf(vm.query.toLowerCase()) !== -1
+                return article.name.toLowerCase().indexOf(self.query.toLowerCase()) !== -1
             })
         }
     },
@@ -100,50 +98,11 @@ export default {
         switchDisplay: function(){
             this.isList = !this.isList
         },
-
-        beforeEnter: function (el) {
-            el.style.opacity = 0
-            el.style.height = 0
-        },
-        enter: function (el, done) {
-            var delay = el.dataset.index * 150
-            // setTimeout(function () {
-            // Velocity(
-            //     el,
-            //     { opacity: 1, height: "auto"},
-            //     { complete: done }
-            // )
-            // }, delay)
-        },
-        leave: function (el, done) {
-            var delay = el.dataset.index * 150
-            // setTimeout(function () {
-            //     Velocity(
-            //     el,
-            //     { opacity: 0, height: 0 },
-            //     { complete: done }
-            //     )
-            // }, delay)
-        },
-        // showAllArticles: function(){
-        //     this.allArticles.forEach(element => {
-        //         this.displayedArticles.push(element)                
-        //     });
-        // },
-        // flashList: function(){
-        //     console.log('flash')
-        //     let numArticles = this.displayedArticles.length
-        //     let articlesCopy = this.displayedArticles.slice()
-
-        //     for (let index = 0; index < numArticles; index++) {
-        //         this.displayedArticles.pop()
-        //     }
-
-        //     articlesCopy.forEach(element => {
-        //         this.displayedArticles.push(element)                
-        //     });
-
-        // }
+        toggleInfo: function (article) {
+            console.log(article)
+            const foundArticle = this.allArticles.find((articleListEl) => articleListEl.id === article.id)
+            foundArticle.isInfoExpanded = !foundArticle.isInfoExpanded
+        }
     },
 };
 </script>
@@ -151,5 +110,12 @@ export default {
 <style>
 .column {
   display: flex;
+}
+.articles-list-enter, .articles-list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.articles-list-leave-active {
+  position: absolute;
 }
 </style>

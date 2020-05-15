@@ -6,7 +6,7 @@ from rest_framework import serializers
 # [
 #   {
 #     'repeat(50, 10)': {
-#       model: 'articles.article',
+#       model: 'api.article',
 #       pk: '{{index()+1}}',
 #       fields:{
 #         name: '{{company()}}',

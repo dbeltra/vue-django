@@ -1,9 +1,13 @@
+/* eslint-disable no-console */
 <template>
   <div 
     class="column article-list-item"
     :class="articleWidth"
   >
-    <div class="box">
+    <div
+      class="box"
+      :class="{'is-expanded':article.isInfoExpanded}"
+    >
       <article class="media">
         <figure class="media-left">
             <p class="image is-64x64">
@@ -16,6 +20,13 @@
               <strong>{{article.name}}</strong>
               <br>{{article.description}}
             </p>
+            <button 
+                class="button"
+                v-on:click="$emit('toggle-info', article)"
+            >
+            <span v-if="article.isInfoExpanded">-</span>
+            <span v-else>+</span>
+            </button>
         </div>
       </article>
     </div>
@@ -32,12 +43,19 @@ export default {
     },
     isList: {
       type: Boolean,
+    },
+    expanded: {
+      type: Boolean,
     }
   },
   computed: {
     articleWidth: function(){
       return this.isList ? 'is-full' : 'is-half'
-    }
+    },
+  },
+	methods: {
+  },
+  created: function (){
   }
 };
 </script>
